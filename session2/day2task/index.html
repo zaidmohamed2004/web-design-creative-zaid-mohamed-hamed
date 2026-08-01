@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel = "icon" href = "images\check-mark.png">
+</head>
+<body>
+    <h1>Form</h1>
+     <fieldset>
+        <legend>Form</legend>
+        <form autocomplete="off" method="post">
+        <label>Name:</label>
+        <input placeholder="Enter your name" type="text" name="name" pattern="[A-Za-z ]{3,5}">
+        <br>
+        <label>Email:</label>
+        <input placeholder="Enter your email" type="email" name="email" required>
+        <br>
+        <label>Password:</label>
+        <input placeholder="Enter your password" type="password" name="password" pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[!@#$%^&*]).{8,}" required >
+        <br>
+        <label>Mobile Number:</label>
+        <input placeholder="Enter your number" type="tel" name="mobile" pattern="^01[0125][0-9]{8}$">
+        <br>
+        <label>Your city:</label>
+        <input placeholder="Choose your city" list="cities" name="cities" >
+        <datalist id="cities">
+            <option value="Cairo"></option>
+            <option value="Alex"></option>
+        </datalist>
+        <br>
+        <label>Age</label>
+        <input type="range" min="18" max="30" name="age">
+        <br>
+        <label>Adress</label>
+        <input placeholder="Enter your address" type="text" name="adress" pattern="^[A-Za-z ]+$" required>
+        <br>
+        <label>Upload your image</label>
+        <input type="file" accept=".png,image/png">
+        
+
+        
+
+        
+        <br><br><input type="submit">
+    </form>
+    </fieldset>
+    
+    
+
+
+</body>
+</html>>
