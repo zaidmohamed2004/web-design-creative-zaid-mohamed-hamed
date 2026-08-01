@@ -1,0 +1,62 @@
+*{
+    vertical-align: middle;
+    font-size: medium;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-align: justify;
+    
+
+    
+}
+h1{
+    font-size: x-large;
+    text-align: center;
+}
+.one{
+    display: inline-block;
+    background-color: black;
+    color: white;
+    border: solid red 2px;
+    width: 30%;
+    padding: 1%;
+    border-radius: 20px 3px;
+    /* text-align: justify; */
+
+
+}
+.two{
+    display: inline-block;
+    background-color: black;
+    color: white;
+    border: solid red 2px;
+    width: 30%;
+    margin:3% 3%;
+    padding: 1%;
+    border-radius: 20px 3px;
+    /* text-align: justify; */
+
+}
+.three{
+
+    display: inline-block;
+    background-color: black;
+    color: white;
+    border: solid red 2px;
+    width: 30%;
+    padding: 1%;
+    border-radius: 20px 3px;
+    /* text-align: justify; */
+
+
+}
+a{
+    border-radius: 5px;
+    background-color: red;
+    padding: 3%;
+    margin: 3% 30%;
+    color: aqua;
+    display: inline-block;
+    
+    
+}
