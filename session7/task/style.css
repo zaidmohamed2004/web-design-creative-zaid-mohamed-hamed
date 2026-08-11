@@ -1,0 +1,132 @@
+* {
+    margin: 0.5%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.head-text {
+    display: flex;
+    column-gap: 15px;
+    margin-left: 50px;
+}
+
+a {
+    text-decoration: none;
+    font-style: none;
+    color: black;
+}
+
+.java {
+    color: rgb(1, 187, 187);
+}
+
+.javaphp {
+    display: flex;
+}
+
+p {
+    width: 40%;
+}
+
+.profile-img1 {
+    position: absolute;
+    height: 55px;
+    left: 317px;
+    top: 428px;
+    border-radius: 40px;
+    z-index: 3;
+}
+
+.profile-img2 {
+    position: absolute;
+    height: 55px;
+    left: 840px;
+    top: 428px;
+    border-radius: 40px;
+    z-index: 3;
+}
+
+.profile-img3 {
+    position: absolute;
+    height: 55px;
+    left: 1374px;
+    top: 428px;
+    border-radius: 40px;
+    z-index: 3;
+}
+
+.aqua {
+    color: rgb(1, 187, 187);
+}
+
+.lot {
+    width: 400px;
+}
+
+.bg-black {
+    background-color: rgba(0, 0, 0, 0.249);
+}
+
+.a1 {
+    top: 81px;
+    padding: 167px;
+    position: absolute;
+    left: 18px;
+    z-index: 1;
+}
+
+.a2 {
+    padding: 166px;
+    position: absolute;
+    left: 555px;
+    top: 85px;
+    z-index: 1;
+}
+
+.a3 {
+    padding: 165px;
+    position: absolute;
+    left: 1091px;
+    top: 85px;
+    z-index: 1;
+}
+
+.black {
+    color: aliceblue;
+}
+
+.img-class1 {
+    position: relative;
+    z-index: 2;
+}
+
+.img-class2 {
+    position: relative;
+    z-index: 2;
+}
+
+.img-class3 {
+    position: relative;
+    z-index: 2;
+}
+
+
+
+.img-class1:hover + .a1 {
+    z-index: 7;
+}
+
+.img-class2:hover + .a2 {
+    z-index: 7;
+}
+
+.img-class3:hover + .a3 {
+    z-index: 7;
+}
