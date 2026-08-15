@@ -33,19 +33,21 @@ body {
 
 .info {
   width: 200px;
-  height: 75px;
+  height: 200px;
   background-color: white;
   text-align: center;
-  padding-top: 12px;
+  padding-top: 20px;
   position: absolute;
-  top: 125px;
+  top: 0;
   left: 0;
   z-index: 1;
   transition: 0.5s;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  margin-bottom: 80px;
 }
 
 .info h3 {
+  padding-top: 70%;
   font-size: 15px;
   color: #222;
   margin-bottom: 3px;

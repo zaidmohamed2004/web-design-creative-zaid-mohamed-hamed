@@ -1,0 +1,19 @@
+img{
+    margin-top: 200px;
+    object-fit: cover;
+    height: 200px;
+    width: 200px;
+}
+
+.animated-car{
+    animation: run 3s linear 0s 1 normal forwards;
+}
+
+@keyframes run {
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(1000px)
+    }
+}

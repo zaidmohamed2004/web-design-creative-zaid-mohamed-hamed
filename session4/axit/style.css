@@ -1,0 +1,66 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+
+}
+.float-left{
+    float: left;
+}
+nav{
+    
+}
+.bg-img{
+    background-image: url(../images/newyork.jpg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.text-orange{
+    color: orange;
+}

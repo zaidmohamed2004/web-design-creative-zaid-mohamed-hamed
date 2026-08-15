@@ -1,0 +1,88 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.text-black{
+    color: black;
+}
+.text-grey{
+    color: rgb(174, 174, 174);
+}
+a{
+    font-size: x-small;
+    text-decoration: none;
+    color: inherit;
+}
+ul{
+    list-style: none;
+    display: flex;
+    column-gap: 12px;
+}
+
+.navd-flex{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+}
+.nav-right{
+    display: flex;
+    column-gap: 45px;
+    align-items: center;
+    padding: 1% 0%;
+}
+h1{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.yellow-btn{
+    color: rgb(121, 120, 120);
+    font-size: small;
+    text-align: center;
+    background-color: rgb(255, 200, 0);
+    padding: 0% 9%;
+}
+.joinus{
+    margin: -20%;
+}
+.maindiv{
+    width: 100%;
+}
+.bigimg {
+    margin-top: 60px;
+    margin-left: 573px;
+}
+.formmaindiv {
+    position: absolute;
+    top: 151px;
+    left: 313px;
+}
+.formtext{
+    padding:15px ;
+    padding-right: 120px;
+    margin-top: 50px;
+}
+.h1text{
+    width: 300px;
+}
+
+.searchbtn{
+    border: 0cm;
+    background-color: rgb(255, 200, 0);
+    padding:15px 35px ;
+}
+.num-locmain{
+
+}
+.num-loc{
+
+}
+.scrolldowm{
+    
+}
