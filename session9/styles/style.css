@@ -1,19 +1,24 @@
-img{
+
+
+body {
+    background-color: cornflowerblue;
+}
+
+img {
     margin-top: 200px;
-    object-fit: cover;
-    height: 200px;
     width: 200px;
+    height: 200px;
+    object-fit: cover;
 }
 
-.animated-car{
-    animation: run 3s linear 0s 1 normal forwards;
+.animated-car {
+    animation: run 2s linear forwards;
 }
-
 @keyframes run {
-    from{
-        transform: translateX(0);
-    }
-    to{
-        transform: translateX(1000px)
-    }
-}
+        from{
+            transform: translateX(-300px);
+        }
+        to{
+            transform: translateX(calc(100vw));
+        }
+     }
